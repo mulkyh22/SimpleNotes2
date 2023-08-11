@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleNotes2</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="channel_name">Note Edit Channel</string>
+    <string name="channel_description">Notifications for edited notes</string>
+    <string name="login_notification_channel_id">Notification</string>
+    <string name="login_notification_title">Login Status</string>
+    <string name="login_notification_message">Login using Google success!</string>
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pageNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Apps"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewPage"
+        android:layout_width="244dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/splash_image" />
+
+    <TextView
+        android:id="@+id/titleTextViewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Simple Notes v2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTextViewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="v2.0"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/SwipeTextViewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Swipe screen to right for next page →"
+        android:textSize="12sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray_light">#EEEDEC</color>
+    <color name="gray_dark">#616366</color>
+    <color name="gray">#9DA0A3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="brown_light">#DDA15E</color>
+    <color name="brown_dark">#BC6C25</color>
+    <color name="yellow_light">#FEFAE0</color>
+    <color name="green">#606C38</color>
+    <color name="green_dark">#283618</color>
+    <color name="green_light">#C5D884</color>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/brown_light</item>
+    </style>
+</resources>

@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewPage"
+        android:layout_width="244dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/splash_image" />
+
+    <TextView
+        android:id="@+id/titleTextViewPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Simple Notes 2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTextViewPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="This app is used for simple notes"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/descriptionTextViewPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="This app has been developed using Java and Android Studio. It utilizes various Android components and libraries such as ViewPager2, ConstraintLayout, Firebase, and LinearLayout."
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/SwipeTextViewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="← Swipe screen to left for back to main page"
+        android:textSize="12sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center" />
+
+</LinearLayout>

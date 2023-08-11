@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/header_title_addNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#19a6b0"
+        android:minHeight="56dp"
+        android:elevation="0.5dp"
+        android:theme="@style/Theme.SimpleNotes2">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="14dp"
+        android:paddingLeft="4dp"
+        android:id="@+id/edit_title"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="Title"
+        android:textColor="#FF000000"
+        android:background="@drawable/text_line_2"
+        android:layout_below="@id/header_title_addNote"
+        android:layout_marginHorizontal="16dp"
+        />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/edit_title"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="32dp"
+        android:id="@+id/edit_note"
+        android:hint="Add Notes"
+        android:textSize="16dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:textColor="@color/gray_dark"
+        android:layout_marginHorizontal="16dp"
+        android:paddingLeft="4dp"
+        android:background="@null" />
+    </ScrollView>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:menu_fab_size="normal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            app:menu_colorPressed="#19a6b0"
+            app:menu_colorNormal="#19a6b0"
+            app:menu_icon="@drawable/baseline_menu_24"
+            app:menu_openDirection="up"
+            app:menu_showShadow="true">
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editButton"
+                android:src="@drawable/baseline_edit_24"
+                app:fab_showShadow="true"
+                app:fab_colorNormal="@color/brown_light"
+                app:fab_size="mini"/>
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/deleteButton"
+                android:src="@drawable/baseline_delete_24"
+                app:fab_showShadow="true"
+                app:fab_colorNormal="#F44336"
+                app:fab_size="mini"/>
+        </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

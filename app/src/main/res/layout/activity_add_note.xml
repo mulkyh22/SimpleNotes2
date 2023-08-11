@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/header_title_addNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_line"
+        android:minHeight="56dp"
+        android:elevation="0.5dp"
+        android:theme="@style/Theme.SimpleNotes2">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save_note_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/white"
+            android:text="Save"
+            android:textColor="#FF000000"
+            android:textSize="16dp"
+            app:rippleColor="#EBEDE5"
+            app:shapeAppearanceOverlay="@style/RetangShape" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:id="@+id/edit_text_title"
+        android:hint="Title"
+        android:textSize="16dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:layout_below="@id/header_title_addNote"
+        android:layout_marginHorizontal="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="32dp"
+        android:id="@+id/edit_text_note"
+        android:hint="Description"
+        android:textSize="16dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"
+        android:layout_below="@id/edit_text_title"
+        android:layout_marginHorizontal="16dp"
+        android:paddingLeft="4dp"
+        android:background="@null"
+        />
+
+
+  </RelativeLayout>
