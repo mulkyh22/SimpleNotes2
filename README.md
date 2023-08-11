@@ -11,4 +11,4 @@ Final-Semester Exam, Created by MulkyH (10120146 - IF4)
 <img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/6.png" alt="alt text" width="25%">
 <img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/7.png" alt="alt text" width="25%">
 <img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/8.png" alt="alt text" width="25%">
-<img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/notification.png" alt="alt text" width="25%">
+<img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/Notification.png" alt="alt text" width="25%">
