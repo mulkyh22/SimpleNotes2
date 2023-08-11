@@ -2,6 +2,10 @@
 Simple Notes (2) Application based on Java and Firebase
 
 Final-Semester Exam, Created by MulkyH (10120146 - IF4)
+Feature :
+1. Simple Notes (CRUD)
+2. Login using Account and Google account
+3. Notification
 
 <img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/1.png" alt="alt text" width="25%">
 <img src="https://github.com/mulkyh22/SimpleNotes2/blob/main/Screenshots/2.png" alt="alt text" width="25%">
